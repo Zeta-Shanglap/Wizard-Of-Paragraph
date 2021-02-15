@@ -2,7 +2,7 @@
 
 
 body {
-  background-image: url(Main.jpg)
+  background-image: url(assets/Main/Main.jpg);
   font-family: 'Raleway', sans-serif;
 }
 * {
