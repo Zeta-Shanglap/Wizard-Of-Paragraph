@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+
+
+body {
+  background-image: url(Main.jpg)
+  font-family: 'Raleway', sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul li a {
+  color: cyan;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 12px 16px;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+}
+
+.dropdown-cont a{
+  display: block;
+  color: cyan;
+}
+
+.dropdown-cont {
+  background-color: seagreen;
+  box-shadow: 0px 8px 60px 0px rgba(0,0,0,0.3);
+  display: none;
+  position: absolute;
+}
+
+ul li a:hover {
+  background-color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-cont {
+  display: block;
+}
+
+.dropdown-cont a:hover {
+  background-color: black;
+}
+
+.logo {
+  float: left;
+}
+
+.title {
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right:0;
+  background: #111;
+  height:auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: cyan;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-content h3 {
+  text-size: 2.0rem;
+  font-weight: 400px;
+  text-transform: capitalize;
+  line-height: 3rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-content p {
+  max-width: 400px;
+  margin: 10px auto;
+  line-height:30px;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-bottom {
+  background-image: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-bottom p {
+  text-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+}
+
