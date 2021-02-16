@@ -1,68 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Raleway:ital,wght@1,100&display=swap');
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 10px;
-}
-
-body {
-  background-image: url(../assets/about/background.jpg);
-  background-repeat: no-repeat;
-  width: auto;
-  height: auto;
-  font-family: 'Lexend Mega', sans-serif;
-  box-sizing: border-box;
- }
- 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 3rem;
-  margin-top: 4rem;
-  text-align: center;
-}
-
-.name {
-  color: #d6f50f;
-  font-size: 5rem;
-  font-weight: 700;
-  letter-spacing: 10px;
-  margin-bottom: 3rem;
-}
-
-h2{
-  color: darkcyan;
-  font-style: 4rem;
-  font-weight: 400;
-}
-
-.image {
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-}
-
-.btn {
-  color: #d6f50f;
-  display: inline-block;
-  text-decoration: none;
-  background: black;
-  font-style: 2rem;
-  padding: 2.5rem 7.5rem;
-  border-radius: 10px;
-  transition: background 0.5s;
-}
-
-.btn:hover {
-  color: cyan;
-}
-
 footer {
   position: absolute;
   bottom: 0;
@@ -168,6 +103,37 @@ ul li a:hover {
   background-color: black;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Raleway:ital,wght@1,100&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-image: url(../assets/about/background.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+  font-family: 'Lexend Mega', sans-serif;
+  box-sizing: border-box;
+}
+
 .logo {
   color: #d6f50f;
   float: left;
@@ -178,4 +144,3 @@ ul li a:hover {
   width: 300;
   height: 200;
 }
-
